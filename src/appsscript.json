@@ -1,0 +1,23 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {},
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/documents.currentonly",
+    "https://www.googleapis.com/auth/documents"
+  ],
+  "addOns": {
+    "common": {
+      "name": "Highlight Tools",
+      "logoUrl": "https://www.gstatic.com/images/icons/material/system/2x/border_color_black_48dp.png",
+      "layoutProperties": {
+        "primaryColor": "#38665C"
+      },
+      "homepageTrigger": {
+        "runFunction": "onHomepage"
+      }
+    },
+    "docs": {}
+  }
+}
